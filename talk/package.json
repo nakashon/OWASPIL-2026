@@ -1,0 +1,19 @@
+{
+  "name": "recognition-resistance-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline conference deck, editable PowerPoint, and Hebrew speaker notes",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0",
+    "pptxgenjs": "^4.0.1",
+    "qrcode": "^1.5.4"
+  }
+}

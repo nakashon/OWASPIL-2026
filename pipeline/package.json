@@ -1,0 +1,18 @@
+{
+  "name": "owaspil-2026-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible analysis pipeline for the AlexBot adversarial dataset (OWASP AppSec Israel 2026).",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "ingest": "node src/ingest.mjs",
+    "anonymize": "node src/anonymize.mjs",
+    "stats": "node src/stats.mjs",
+    "translate": "node src/translate.mjs",
+    "all": "npm run ingest && npm run anonymize && npm run stats",
+    "all:translated": "npm run all && npm run translate",
+    "test": "node --test test/*.test.mjs",
+    "check:release": "node src/release-check.mjs"
+  }
+}

@@ -1,0 +1,35 @@
+# Raw exports — never committed. Contains real names, phone numbers, message contents.
+data/raw/
+data/interim/
+
+# The full pseudonymized dataset remains private.
+data/anonymized/
+
+# Translations are derived from the anonymized set and inherit the same pending
+# decision. The cache holds the same message text keyed by hash.
+data/translated/
+data/translation-cache.json
+data/.translate-*/
+
+# Translation scratch artifacts inherit the corpus's publication restriction.
+# Ignoring does not untrack existing files or remove them from Git history.
+pipeline/.batch*
+pipeline/batch*
+pipeline/translation_*
+pipeline/translate_out*
+pipeline/.venv*/
+
+# The anonymization salt must never enter version control. Without it the
+# pseudonym mapping cannot be reversed; with it, it can.
+.env
+*.salt
+ANON_SALT*
+
+node_modules/
+.playwright-mcp/
+.DS_Store
+*.log
+
+# Local presentation render checks; final deck exports live in talk/slides/.
+talk/.render/
+talk/slides/~$*

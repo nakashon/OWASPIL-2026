@@ -1,0 +1,838 @@
+{
+  "generated_at": "2026-10-04T20:02:26.702Z",
+  "source_stage": "data/anonymized",
+  "window": {
+    "first_day": "2026-02-11",
+    "last_day": "2026-08-10",
+    "active_days": 123,
+    "span_days": 181
+  },
+  "totals": {
+    "messages": 21337,
+    "bot_responses": 9763,
+    "human_messages": 11574,
+    "participants": 269,
+    "scored_interactions": 4934
+  },
+  "outcomes": {
+    "scored": 4934,
+    "hacked": 1892,
+    "hacked_rate_pct": 38.3,
+    "broke": 141,
+    "broke_rate_pct": 2.9
+  },
+  "score_averages": {
+    "creativity": 5.15,
+    "challenge": 5.43,
+    "humor": 3.38,
+    "cleverness": 5.97,
+    "engagement": 6.32
+  },
+  "per_day": [
+    {
+      "day": "2026-02-11",
+      "interactions": 357,
+      "hacked": 97,
+      "hacked_rate_pct": 27.2
+    },
+    {
+      "day": "2026-02-12",
+      "interactions": 171,
+      "hacked": 37,
+      "hacked_rate_pct": 21.6
+    },
+    {
+      "day": "2026-02-13",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-02-14",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-02-15",
+      "interactions": 35,
+      "hacked": 10,
+      "hacked_rate_pct": 28.6
+    },
+    {
+      "day": "2026-02-16",
+      "interactions": 77,
+      "hacked": 53,
+      "hacked_rate_pct": 68.8
+    },
+    {
+      "day": "2026-02-17",
+      "interactions": 346,
+      "hacked": 238,
+      "hacked_rate_pct": 68.8
+    },
+    {
+      "day": "2026-02-18",
+      "interactions": 160,
+      "hacked": 47,
+      "hacked_rate_pct": 29.4
+    },
+    {
+      "day": "2026-02-19",
+      "interactions": 73,
+      "hacked": 39,
+      "hacked_rate_pct": 53.4
+    },
+    {
+      "day": "2026-02-20",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-02-21",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-02-22",
+      "interactions": 21,
+      "hacked": 10,
+      "hacked_rate_pct": 47.6
+    },
+    {
+      "day": "2026-02-23",
+      "interactions": 32,
+      "hacked": 10,
+      "hacked_rate_pct": 31.3
+    },
+    {
+      "day": "2026-02-24",
+      "interactions": 171,
+      "hacked": 106,
+      "hacked_rate_pct": 62
+    },
+    {
+      "day": "2026-02-25",
+      "interactions": 17,
+      "hacked": 12,
+      "hacked_rate_pct": 70.6
+    },
+    {
+      "day": "2026-02-26",
+      "interactions": 30,
+      "hacked": 24,
+      "hacked_rate_pct": 80
+    },
+    {
+      "day": "2026-02-27",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-02-28",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-01",
+      "interactions": 97,
+      "hacked": 56,
+      "hacked_rate_pct": 57.7
+    },
+    {
+      "day": "2026-03-02",
+      "interactions": 39,
+      "hacked": 15,
+      "hacked_rate_pct": 38.5
+    },
+    {
+      "day": "2026-03-03",
+      "interactions": 66,
+      "hacked": 23,
+      "hacked_rate_pct": 34.8
+    },
+    {
+      "day": "2026-03-04",
+      "interactions": 48,
+      "hacked": 17,
+      "hacked_rate_pct": 35.4
+    },
+    {
+      "day": "2026-03-05",
+      "interactions": 59,
+      "hacked": 10,
+      "hacked_rate_pct": 16.9
+    },
+    {
+      "day": "2026-03-06",
+      "interactions": 11,
+      "hacked": 9,
+      "hacked_rate_pct": 81.8
+    },
+    {
+      "day": "2026-03-07",
+      "interactions": 132,
+      "hacked": 103,
+      "hacked_rate_pct": 78
+    },
+    {
+      "day": "2026-03-08",
+      "interactions": 80,
+      "hacked": 47,
+      "hacked_rate_pct": 58.8
+    },
+    {
+      "day": "2026-03-09",
+      "interactions": 151,
+      "hacked": 115,
+      "hacked_rate_pct": 76.2
+    },
+    {
+      "day": "2026-03-10",
+      "interactions": 63,
+      "hacked": 15,
+      "hacked_rate_pct": 23.8
+    },
+    {
+      "day": "2026-03-11",
+      "interactions": 197,
+      "hacked": 84,
+      "hacked_rate_pct": 42.6
+    },
+    {
+      "day": "2026-03-12",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-13",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-14",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-15",
+      "interactions": 6,
+      "hacked": 1,
+      "hacked_rate_pct": 16.7
+    },
+    {
+      "day": "2026-03-16",
+      "interactions": 2,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-17",
+      "interactions": 14,
+      "hacked": 11,
+      "hacked_rate_pct": 78.6
+    },
+    {
+      "day": "2026-03-18",
+      "interactions": 9,
+      "hacked": 3,
+      "hacked_rate_pct": 33.3
+    },
+    {
+      "day": "2026-03-19",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-20",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-21",
+      "interactions": 61,
+      "hacked": 39,
+      "hacked_rate_pct": 63.9
+    },
+    {
+      "day": "2026-03-22",
+      "interactions": 62,
+      "hacked": 25,
+      "hacked_rate_pct": 40.3
+    },
+    {
+      "day": "2026-03-23",
+      "interactions": 28,
+      "hacked": 4,
+      "hacked_rate_pct": 14.3
+    },
+    {
+      "day": "2026-03-24",
+      "interactions": 7,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-03-25",
+      "interactions": 224,
+      "hacked": 92,
+      "hacked_rate_pct": 41.1
+    },
+    {
+      "day": "2026-03-26",
+      "interactions": 179,
+      "hacked": 102,
+      "hacked_rate_pct": 57
+    },
+    {
+      "day": "2026-03-27",
+      "interactions": 520,
+      "hacked": 176,
+      "hacked_rate_pct": 33.8
+    },
+    {
+      "day": "2026-03-28",
+      "interactions": 16,
+      "hacked": 4,
+      "hacked_rate_pct": 25
+    },
+    {
+      "day": "2026-03-29",
+      "interactions": 188,
+      "hacked": 50,
+      "hacked_rate_pct": 26.6
+    },
+    {
+      "day": "2026-03-30",
+      "interactions": 40,
+      "hacked": 32,
+      "hacked_rate_pct": 80
+    },
+    {
+      "day": "2026-03-31",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-02",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-03",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-06",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-07",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-08",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-09",
+      "interactions": 30,
+      "hacked": 5,
+      "hacked_rate_pct": 16.7
+    },
+    {
+      "day": "2026-04-10",
+      "interactions": 3,
+      "hacked": 2,
+      "hacked_rate_pct": 66.7
+    },
+    {
+      "day": "2026-04-11",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-14",
+      "interactions": 1,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-17",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-18",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-19",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-20",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-04-29",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-05",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-06",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-14",
+      "interactions": 88,
+      "hacked": 16,
+      "hacked_rate_pct": 18.2
+    },
+    {
+      "day": "2026-05-15",
+      "interactions": 2,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-16",
+      "interactions": 18,
+      "hacked": 1,
+      "hacked_rate_pct": 5.6
+    },
+    {
+      "day": "2026-05-17",
+      "interactions": 9,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-18",
+      "interactions": 25,
+      "hacked": 1,
+      "hacked_rate_pct": 4
+    },
+    {
+      "day": "2026-05-19",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-20",
+      "interactions": 1,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-21",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-23",
+      "interactions": 44,
+      "hacked": 10,
+      "hacked_rate_pct": 22.7
+    },
+    {
+      "day": "2026-05-24",
+      "interactions": 69,
+      "hacked": 2,
+      "hacked_rate_pct": 2.9
+    },
+    {
+      "day": "2026-05-26",
+      "interactions": 2,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-27",
+      "interactions": 14,
+      "hacked": 3,
+      "hacked_rate_pct": 21.4
+    },
+    {
+      "day": "2026-05-28",
+      "interactions": 3,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-05-29",
+      "interactions": 40,
+      "hacked": 1,
+      "hacked_rate_pct": 2.5
+    },
+    {
+      "day": "2026-06-01",
+      "interactions": 31,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-02",
+      "interactions": 3,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-03",
+      "interactions": 46,
+      "hacked": 1,
+      "hacked_rate_pct": 2.2
+    },
+    {
+      "day": "2026-06-05",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-08",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-11",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-12",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-13",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-14",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-17",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-18",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-21",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-06-28",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-03",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-05",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-09",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-11",
+      "interactions": 24,
+      "hacked": 11,
+      "hacked_rate_pct": 45.8
+    },
+    {
+      "day": "2026-07-12",
+      "interactions": 134,
+      "hacked": 28,
+      "hacked_rate_pct": 20.9
+    },
+    {
+      "day": "2026-07-13",
+      "interactions": 117,
+      "hacked": 20,
+      "hacked_rate_pct": 17.1
+    },
+    {
+      "day": "2026-07-14",
+      "interactions": 207,
+      "hacked": 37,
+      "hacked_rate_pct": 17.9
+    },
+    {
+      "day": "2026-07-15",
+      "interactions": 46,
+      "hacked": 15,
+      "hacked_rate_pct": 32.6
+    },
+    {
+      "day": "2026-07-16",
+      "interactions": 36,
+      "hacked": 5,
+      "hacked_rate_pct": 13.9
+    },
+    {
+      "day": "2026-07-17",
+      "interactions": 9,
+      "hacked": 1,
+      "hacked_rate_pct": 11.1
+    },
+    {
+      "day": "2026-07-18",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-19",
+      "interactions": 10,
+      "hacked": 2,
+      "hacked_rate_pct": 20
+    },
+    {
+      "day": "2026-07-20",
+      "interactions": 15,
+      "hacked": 1,
+      "hacked_rate_pct": 6.7
+    },
+    {
+      "day": "2026-07-21",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-22",
+      "interactions": 2,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-23",
+      "interactions": 44,
+      "hacked": 4,
+      "hacked_rate_pct": 9.1
+    },
+    {
+      "day": "2026-07-24",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-25",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-26",
+      "interactions": 7,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-07-27",
+      "interactions": 20,
+      "hacked": 6,
+      "hacked_rate_pct": 30
+    },
+    {
+      "day": "2026-07-28",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-01",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-02",
+      "interactions": 2,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-03",
+      "interactions": 7,
+      "hacked": 2,
+      "hacked_rate_pct": 28.6
+    },
+    {
+      "day": "2026-08-04",
+      "interactions": 29,
+      "hacked": 2,
+      "hacked_rate_pct": 6.9
+    },
+    {
+      "day": "2026-08-05",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-06",
+      "interactions": 3,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-07",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-08",
+      "interactions": 0,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-09",
+      "interactions": 1,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    },
+    {
+      "day": "2026-08-10",
+      "interactions": 3,
+      "hacked": 0,
+      "hacked_rate_pct": 0
+    }
+  ],
+  "per_month": [
+    {
+      "month": "2026-02",
+      "interactions": 1490,
+      "hacked": 683,
+      "hacked_rate_pct": 45.8,
+      "active_attackers": 41
+    },
+    {
+      "month": "2026-03",
+      "interactions": 2299,
+      "hacked": 1033,
+      "hacked_rate_pct": 44.9,
+      "active_attackers": 30
+    },
+    {
+      "month": "2026-04",
+      "interactions": 34,
+      "hacked": 7,
+      "hacked_rate_pct": 20.6,
+      "active_attackers": 6
+    },
+    {
+      "month": "2026-05",
+      "interactions": 315,
+      "hacked": 34,
+      "hacked_rate_pct": 10.8,
+      "active_attackers": 15
+    },
+    {
+      "month": "2026-06",
+      "interactions": 80,
+      "hacked": 1,
+      "hacked_rate_pct": 1.3,
+      "active_attackers": 9
+    },
+    {
+      "month": "2026-07",
+      "interactions": 671,
+      "hacked": 130,
+      "hacked_rate_pct": 19.4,
+      "active_attackers": 4
+    },
+    {
+      "month": "2026-08",
+      "interactions": 45,
+      "hacked": 4,
+      "hacked_rate_pct": 8.9,
+      "active_attackers": 1
+    }
+  ],
+  "returning_attacker_cohort": {
+    "split_date": "2026-04-01",
+    "min_attempts_per_period": 5,
+    "returning_attackers": 9,
+    "early": {
+      "attempts": 1776,
+      "hacked": 659,
+      "rate_pct": 37.1
+    },
+    "late": {
+      "attempts": 279,
+      "hacked": 27,
+      "rate_pct": 9.7
+    },
+    "declined": 8
+  }
+}
